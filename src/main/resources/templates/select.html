@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Draw&Guess</title>
+    <link rel="shortcut icon" th:href="@{/icon.ico}"/>
+    <link rel="bookmark" th:href="@{/icon.ico}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/index.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/select.css}"/>
+    <script type="text/javascript" th:src="@{/js/select.js}"></script>
+</head>
+<body>
+<div id="background">
+    <h4>@Author: Xinyuan Zuo</h4>
+    <div id="div_p1">
+        <img class="except_img" th:src="@{/img/p1.jpg}"/>
+    </div>
+    <center>
+        <div id="drawguess">
+            <div id="draw_div">
+                <button id="draw_button" type="button" onclick="draw_button_onclick()">Draw</button>
+            </div>
+
+            <div id="guess_div">
+                <button id="guess_button" type="button" onclick="guess_button_onclick()">Guess</button>
+            </div>
+
+        </div>
+    </center>
+
+
+
+
+
+
+</div>
+
+</body>
+</html>

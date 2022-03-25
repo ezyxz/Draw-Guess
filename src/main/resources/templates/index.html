@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Draw&Guess</title>
+    <link rel="shortcut icon" th:href="@{/icon.ico}"/>
+    <link rel="bookmark" th:href="@{/icon.ico}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/index.css}"/>
+</head>
+<body>
+<div id="background">
+    <h4>@Author: Xinyuan Zuo</h4>
+
+    <div id="div_p1">
+        <img class="except_img" th:src="@{/img/p1.jpg}"/>
+    </div>
+    <div id="div_input">
+        <form action="/start">
+            <input id="start_input" type="submit", value="PLAY">
+        </form>
+    </div>
+
+
+
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+#drawguess{
+    margin-top: 50px;
+    float: top;
+    text-align:center;
+    width: 800px;
+    height: 500px;
+}
+
+#draw_div{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+#guess_div{
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+
+#draw_button{
+    width: 200px;
+    height: 100px;
+    background-color: #7FFFD4;
+}
+
+#guess_button{
+    width: 200px;
+    height: 100px;
+    background-color: #7FFFD4;
+}

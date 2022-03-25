@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Room</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/chat1.css}"/>
+    <script type="text/javascript" th:src="@{/js/jquery.js}"></script>
+    <script type="text/javascript" th:src="@{/js/room.js}"></script>
+    <link rel="shortcut icon" th:href="@{/icon.ico}"/>
+    <link rel="bookmark" th:href="@{/icon.ico}"/>
+</head>
+<body>
+<h1 align="center">Room</h1>
+<div id="chatMeu" style="background-color: darkgrey"></div>
+
+<!--聊天界面-->
+<div id="chatBody">
+<!--    左侧-->
+    <div id="draw_area">
+        <hr>
+        <input type="range" id="range1" min="1" max="20" step="1"/>
+        <output id="range_output" for="range1" ></output>
+
+            <canvas id="canvas" width="1000" height="700">不能识别</canvas>
+        <input id="clear_button" type="button" value="清空" >
+
+    </div>
+    <!--右侧-->
+    <div id="lists" >
+        <!--在线列表-->
+        <ul style="background-color: darkgrey">在线列表</ul>
+        <div id="users_area">
+            <textarea id="text_users" readonly="readonly"></textarea>
+        </div>
+        <ul style="background-color: darkgrey">Chat Area</ul>
+        <div id = "session_area">
+            <textarea id="text_session" readonly="readonly"></textarea>
+            <textarea id="tex_content" placeholder="请输入文字！"></textarea>
+            <input id="submit" type="button" value="发送" >
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

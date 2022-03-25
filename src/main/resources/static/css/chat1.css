@@ -1,0 +1,199 @@
+.talk_con {
+    width: 600px;
+    height: 500px;
+    border: 1px solid #666;
+    margin: 50px auto 0;
+    background: #f9f9f9;
+}
+
+.talk_show {
+    width: 580px;
+    height: 420px;
+    border: 1px solid #666;
+    background: #fff;
+    margin: 10px auto 0;
+    overflow: auto;
+}
+
+.talk_input {
+    width: 580px;
+    margin: 10px auto 0;
+}
+
+.whotalk {
+    width: 80px;
+    height: 30px;
+    float: left;
+    outline: none;
+}
+
+.talk_word {
+    width: 420px;
+    height: 26px;
+    padding: 0px;
+    float: left;
+    margin-left: 10px;
+    outline: none;
+    text-indent: 10px;
+}
+
+.talk_sub {
+    width: 56px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+}
+
+.atalk {
+    margin: 10px;
+}
+
+.atalk span {
+    display: inline-block;
+    background: #0181cc;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.btalk {
+    margin: 10px;
+    text-align: right;
+}
+
+.btalk span {
+    display: inline-block;
+    background: #ef8201;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+
+#chatBody {
+    border-style: solid;
+    border-color: dodgerblue;
+    width: 100%;
+    height: 800px;
+    background-color: antiquewhite;
+}
+
+#chatMain {
+    border-style: solid;
+    border-color: crimson;
+    width: 65%;
+    float: left;
+    height: 95%;
+    margin-left: 5px;
+    margin-top: 10px;
+    display: inline;
+}
+
+#chatCnt {
+    background-color: aliceblue;
+    border-style: solid;
+    width: 95%;
+    height: 65%;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+
+#chatArea {
+    background-color: azure;
+    border-style: solid;
+    width: 95%;
+    height: 30%;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#draw_area {
+    border-style: solid;
+    border-color: brown;
+    float: left;
+    width: 65%;
+    height: 95%;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#lists {
+    border-style: solid;
+    border-color: aquamarine;
+    float: right;
+    width: 30%;
+    height: 95%;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#session_area {
+    border-style: solid;
+    border-color: black;
+    float: bottom;
+    width: 99%;
+    height: 70%;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+#users_area{
+    border-style: solid;
+    border-color: black;
+    float: top;
+    width: 99%;
+    height: 15%;
+    /*margin-top: 170px;*/
+    /*margin-right: 0px;*/
+}
+
+#tex_content {
+    border-style: solid;
+    float: left;
+    width: 75%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+
+#submit {
+    border-style: solid;
+    float: right;
+    width: 15%;
+    height: 40px;
+    background-color: #34d9d9;
+    margin-top: 20px;
+}
+
+#text_users{
+    width: 99%;
+    height: 110px;
+}
+
+#text_session {
+
+    width: 99%;
+    height: 450px;
+}
+
+#clear_button{
+    float: right;
+    /*width: 15%;*/
+    height: 30px;
+    width: 70px;
+    margin-right: 5px;
+
+}
+
+#canvas{
+    background: #f9f9f9;
+    border: 2px solid fuchsia;
+    display: block;
+}
+
+#background {
+    background-color: #23aaff;
+    background-size: 100% 100%;
+    height: 100%;
+    position: fixed;
+    width: 100%
+}
